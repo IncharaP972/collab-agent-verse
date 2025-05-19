@@ -1,10 +1,10 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import AnimatedDiagram from '@/components/ui/animated-diagram';
+import TaskInputSection from "@/components/task-input/TaskInputSection";
 
 const Index = () => {
   return (
@@ -106,6 +106,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+        
+        {/* Task Input Section */}
+        <TaskInputSection />
       </main>
       <Footer />
     </>
